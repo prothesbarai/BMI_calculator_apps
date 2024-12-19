@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.getSupportActionBar().hide();
         this.getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,R.color.black));
         View decorView = getWindow().getDecorView();
         int uiOptons = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
